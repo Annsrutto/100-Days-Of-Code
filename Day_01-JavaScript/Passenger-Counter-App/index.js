@@ -17,8 +17,8 @@ function save() {
 
 
 let welcomeEl = document.getElementById("welcome-el")
-let name = "Anns"
-let greeting = "Welcome Back, "
+let name = ""
+let greeting = "Welcome Back!"
 
 welcomeEl.innerText = greeting + name
 welcomeEl.innerText += "👋"
