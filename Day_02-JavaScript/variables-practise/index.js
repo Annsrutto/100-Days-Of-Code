@@ -31,3 +31,9 @@ add3Points();
 add3Points();
 remove1Point();
 remove1Point();
+
+let purchaseEl = document.getElementById("error")
+
+function purchaseItem() {
+    purchaseEl.textContent = "Something went wrong, please try again";
+}
