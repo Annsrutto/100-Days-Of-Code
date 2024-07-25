@@ -1,0 +1,38 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+span {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    margin: auto;
+}
+
+#sum-el {
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#num1-el {
+    margin: 5px;
+}
+
+#num2-el {
+    margin: 5px;
+}
