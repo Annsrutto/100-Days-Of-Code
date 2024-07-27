@@ -15,39 +15,3 @@ function updateScore(team, points) {
         guestScoreEl.textContent = guestScore; 
     }
 }
-
-// function addHome1() {
-//     count1 += 1
-//     countHome.textContent = count1
-//     console.log(count1);
-// }
-
-// function addHome2() {
-//     count1 += 2
-//     countHome.textContent = count1
-//     console.log(count1);
-// }
-
-// function addHome3() {
-//     count1 += 3
-//     countHome.textContent = count1 
-//     console.log(count1);
-// }
-
-// function addGuest1() {
-//     count2 += 1
-//     countGuest.textContent = count2
-//     console.log(count2);
-// }
-
-// function addGuest2() {
-//     count2 += 2
-//     countGuest.textContent = count2
-//     console.log(count2);
-// }
-
-// function addGuest3() {
-//     count2 += 3
-//     countGuest.textContent = count2
-//     console.log(count2);
-// }
