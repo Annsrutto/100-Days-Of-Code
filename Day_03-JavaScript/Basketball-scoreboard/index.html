@@ -10,20 +10,20 @@
     <div class="container">
         <div>
             <h3>HOME</h3>
-            <span id="num1-el">12</span>
+            <span id="homeScore"></span>
             <div class="button-el">
-                <button>+ 1</button>
-                <button>+ 2</button>
-                <button>+ 3</button>
+                <button onclick="updateScore('home', 1)">+ 1</button>
+                <button onclick="updateScore('home', 2)">+ 2</button>
+                <button onclick="updateScore('home', 3)">+ 3</button>
             </div>
         </div>
         <div>
             <h3>GUEST</h3>
-            <span id="num2-el">3</span>
+            <span id="guestScore"></span>
             <div class="button-el">
-                <button>+ 1</button>
-                <button>+ 2</button>
-                <button>+ 3</button>
+                <button onclick="updateScore('guest', 1)">+ 1</button>
+                <button onclick="updateScore('guest', 2)">+ 2</button>
+                <button onclick="updateScore('guest', 3)">+ 3</button>
             </div>
         </div>
     </div>
