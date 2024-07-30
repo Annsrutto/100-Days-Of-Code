@@ -8,8 +8,10 @@ let message = '';
 let messageEl = document.getElementById("message-el");
 let sumEl = document.getElementById("sum-el");
 //let sumEl = document.querySelector('#sum-el');
+let cardsEl = document.getElementById("cards-el");
 
 function startGame() {
+    cardsEl.textContent = "Cards: " + firstCard + " " + secondCard;
     sumEl.textContent = "Sum: " + sum;
 
     if (sum <= 20) {
@@ -21,7 +23,11 @@ function startGame() {
         message = "You're out of the game!"
         isAlive = false;
     }
-    messageEl.textContent = message
+    messageEl.textContent = message;
+}
+
+function newCard() {
+    console.log("Drawing a new card from the deck!");
 }
 
 // console.log(hasBlackjack);
