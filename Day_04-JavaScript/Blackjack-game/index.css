@@ -2,6 +2,24 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(images/table.png);
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+} 
+
 h1 {
     color: goldenrod;
+    font-size: 45px;
+}
+
+p {
+    font-size: 25px;
+}
+
+#message-el {
+    font-style: italic;
 }
