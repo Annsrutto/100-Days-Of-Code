@@ -1,6 +1,6 @@
 let player = {
     name: "Anns",
-    chips: 154
+    chips: 200
 }
 
 let cards = [];
@@ -65,61 +65,3 @@ function newCard() {
         renderGame();
     }
 }
-
-// console.log(hasBlackjack);
-// console.log(isAlive);
-
-// console.log(message);
-
-
-
-
-//Arrays in JavaScript
-
-// let aboutMe = ["Anns", 26, true]
-// let newMessage = "I am a software Engineer"
-
-//Push() and Pop() function 
-// aboutMe.push(newMessage)
-// console.log(aboutMe)
-// aboutMe.pop();
-// console.log(aboutMe)
-// aboutMe.pop();
-// console.log(aboutMe)
-
-// For Loops
-// let cards = [9, 1, 8]
-// for (let i = 0; i < cards.length; i++) {
-//     console.log(cards[i])
-// }
-
-// let sentence = ["Hello", "my", "name", "is", "per"]
-// let greetingEl = document.getElementById("greeting-el")
-
-// for (let i = 0; i < sentence.length; i++) {
-//     greetingEl.textContent += sentence[i] + " "
-//     //console.log(sentence[i])
-// }
-
-// Math.random
-// let randomNumber = Math.floor(Math.random() * 6) + 1
-// console.log(randomNumber);
-// let flooredNumber = Math.floor(3.45632)
-// console.log(flooredNumber);
-// function rollDice() {
-//     let randomNumber = Math.floor(Math.random() * 6) + 1
-//     return randomNumber;
-// }
-
-// console.log(rollDice());
-//OR && Operators
-// let likesDocumentaries = true;
-// let likesStartups = false;
-
-// if (likesDocumentaries === true || likesStartups === true) {
-//     recommendMovie()
-// }
-
-// function recommendMovie() {
-//     console.log('Hey, I think you will like this!')
-// }
