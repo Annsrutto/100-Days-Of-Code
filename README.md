@@ -1,1 +1,2 @@
-Here is my 100 days of code challenge showcasing my project based learning.
+100 Days of Code Challenge
+Project Based Learning to improve my coding skills
