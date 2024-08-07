@@ -1,0 +1,33 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #e98a1d;
+}
+
+h1 {
+    line-height: 50px;
+    text-shadow: 0px 3px 0px black;
+    transform: rotate(-9deg);
+}
+
+#stage {
+    width: 100%;
+    font-size: 50px;
+}
+
+button {
+    font-size: 30px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e98a1d;
+    font-family: inherit;
+    color: white;
+    cursor: pointer;
+}
