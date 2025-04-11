@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Terra",
+        "numberOfEmployees": 30,
+        "ceo": "Bernard",
+        "location": "Nairobi",
+        "industry": "Technology"
+    },
+    {
+        "name": "Aqua",
+        "numberOfEmployees": 50,
+        "ceo": null,
+        "location": "Tokyo",
+        "industry": "Finance"
+    },
+    {
+        "name": "Flora",
+        "numberOfEmployees": 20,
+        "ceo": "Willow",
+        "location": "Paris",
+        "industry": "Healthcare"
+    }
+]

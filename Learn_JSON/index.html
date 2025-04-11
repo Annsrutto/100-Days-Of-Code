@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JSON</title>
+</head>
+<body>
+    <h1>Learn JSON</h1>
+    <p>
+        JavaScript Object Notation (JSON) is a data representation format. Commonly used for APIs, Config files in programming. <br> It is lightweight and easy to read/write due to its small size. <br> Its a superset of JavaScript so it intergrates easily with JavaScript. <br>
+        JSON also intergrates easily with most programming languages. 
+    </p>
+    <h2>JSON Types</h2>
+    <ul>
+        <li>Strings</li>
+        <li>Numbers</li>
+        <li>Booleans</li>
+        <li>Null</li>
+        <li>Arrays</li>
+        <li>Objects</li>
+    </ul>
+    <p>JSON.parse is used to convert JSON string to JavaScript Object. <br> Syntax: JSON.parse(text, [, reviver]) <br> A reviver is a function that can transform the resulting object before its returned. Text is a valid JSON string.
+    </p>
+    <p>JSON.stringify is used to convert JavaScript Object to JSON string. <br> Syntax: JSON.stringify(value, [replacer], [space]) <br> A replacer is a function that can transform the object before its converted to JSON. Value is a valid JavaScript object. <br>
+        Space is used to add indentation to the JSON string.
+    </p>
+    <script>
+        let companies = `[
+    {
+        "name": "Terra",
+        "numberOfEmployees": 30,
+        "ceo": "Bernard",
+        "location": "Nairobi",
+        "industry": "Technology"
+    },
+    {
+        "name": "Aqua",
+        "numberOfEmployees": 50,
+        "ceo": null,
+        "location": "Tokyo",
+        "industry": "Finance"
+    },
+    {
+        "name": "Flora",
+        "numberOfEmployees": 20,
+        "ceo": "Willow",
+        "location": "Paris",
+        "industry": "Healthcare"
+    }
+]`;
+        console.log(JSON.parse(companies)[0].ceo);
+
+    </script>
+</body>
+</html>
